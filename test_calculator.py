@@ -2,13 +2,13 @@
 Unit tests for the calculator library
 """
 
-import calculator
+import calculatordef
 
 
 class TestCalculator:
 
     def test_addition(self):
-        assert 4 == calculator.add(2, 2)
+        assert calculatordef.add(2, 2) == 4
 
     def test_subtraction(self):
-        assert 2 == calculator.subtract(4, 2)
+        assert calculatordef.subtract(4, 2) == 2
