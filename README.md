@@ -24,3 +24,8 @@ you can test the library using the `pytest -v` command
 
 # Build
 If you want to use this library with containers or in serverless functions you can build the code using the Dockerfile included.
+
+## Example:
+```
+docker run calculator python3 calculator.py 1 20 10
+```

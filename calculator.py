@@ -2,12 +2,7 @@
 Calculator library containing basic math operations.
 """
 import sys
-#functions
-def add(first_term, second_term):
- 	return first_term + second_term
- 
-def subtract(first_term, second_term):
-  return first_term - second_term
+import calculatordef
 
 # Read user's choice
 choice = sys.argv[1]
@@ -18,10 +13,10 @@ num2 = float(sys.argv[3])
 
 # Check user's choice and perform the corresponding operation
 if choice == '1':
-   print(num1,"+",num2,"=", add(num1,num2))
+   print(num1,"+",num2,"=", calculatordef.add(num1,num2))
 
 elif choice == '2':
-   print(num1,"-",num2,"=", subtract(num1,num2))
+   print(num1,"-",num2,"=", calculatordef.subtract(num1,num2))
 
 else:
    print("Invalid input")
